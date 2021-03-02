@@ -1,0 +1,209 @@
+html,
+body {
+    font-family: 'Roboto Mono',
+        monospace;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* BACKGROUND */
+
+#intro {
+    background: url(https://images.unsplash.com/photo-1584008547195-c4ed4dc3e675?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: auto;
+}
+
+#slide01 {
+    background: url(https://images.unsplash.com/photo-1575572540531-551306e7fb07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1561&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: auto;
+}
+
+#slide03 {
+    background: url(https://images.unsplash.com/photo-1550627951-6bf2a81095d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2389&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: auto;
+}
+
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: auto;
+}
+
+/* ________________________________________________________________________ */
+
+
+/* TEXT  */
+.wrapper {
+    display: block;
+    float: center;
+    position: relative;
+    top: 50vh;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.scroll-hint {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    position: relative;
+    top: 85vh;
+    left: 50vw;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 0.7;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.wrapper1 {
+    display: block;
+    float: center;
+    position: relative;
+    top: 50vh;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Text 1 background */
+/* 
+#intro .wrapper {
+    padding-top: 500px;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+#intro .title {
+    font-size: 70px;
+} */
+
+/* ________________________________________________________________________ */
+
+.content-block {
+    background-color: rgb(36, 35, 35);
+    height: 20vh;
+}
+
+.mynav {
+    font: bold;
+    float: left;
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-label {
+        display: none;
+    }
+}
+
+.vnav {
+    float: right;
+    z-index: 100;
+    padding-right: 20px;
+    list-style-type: none;
+    background: transparent;
+    position: sticky;
+    left: 10px;
+    top: 50%;
+}
+
+.nav-label {
+    display: none;
+}
+
+/* .nav-label {
+    visibility: hidden;
+}
+
+i:hover {
+    .nav-label {
+        visibility: visible;
+    }
+} */
+
+/* @keyframes verticalNav{
+    from{}
+} */
+
+ul li {
+    list-style-type: none;
+}
+
+.footer-container {
+    background-color: rgb(36, 35, 35);
+    position: relative;
+    margin: 0;
+}
+
+.footer-foot {
+    padding-top: 8px;
+    padding-bottom: 1px;
+}
+
+.ff {
+    display: inline;
+}
+
+.footer {
+    color: white;
+    font-size: 20px;
+
+}
+
+/* #footty {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    vertical-align: middle;
+} */
+
+a {
+    color: white;
+    font: bold;
+    float: left;
+    background: transparent;
+    border: none;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+a:hover {
+    color: grey;
+}
